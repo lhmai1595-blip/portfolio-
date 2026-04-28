@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSChiTraNVV" targetNamespace="http://tempuri.org/DSChiTraNVV.xsd" xmlns:mstns="http://tempuri.org/DSChiTraNVV.xsd" xmlns="http://tempuri.org/DSChiTraNVV.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSChiTraNVV" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="DSChiTraNVV" msprop:Generator_DataSetName="DSChiTraNVV">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="BaoCaoChiTraNCC" msprop:Generator_RowEvHandlerName="BaoCaoChiTraNCCRowChangeEventHandler" msprop:Generator_RowDeletedName="BaoCaoChiTraNCCRowDeleted" msprop:Generator_RowDeletingName="BaoCaoChiTraNCCRowDeleting" msprop:Generator_RowEvArgName="BaoCaoChiTraNCCRowChangeEvent" msprop:Generator_TablePropName="BaoCaoChiTraNCC" msprop:Generator_RowChangedName="BaoCaoChiTraNCCRowChanged" msprop:Generator_RowChangingName="BaoCaoChiTraNCCRowChanging" msprop:Generator_TableClassName="BaoCaoChiTraNCCDataTable" msprop:Generator_RowClassName="BaoCaoChiTraNCCRow" msprop:Generator_TableVarName="tableBaoCaoChiTraNCC" msprop:Generator_UserTableName="BaoCaoChiTraNCC">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="STT" msprop:Generator_ColumnPropNameInRow="STT" msprop:Generator_ColumnPropNameInTable="STTColumn" msprop:Generator_ColumnVarNameInTable="columnSTT" msprop:Generator_UserColumnName="STT" type="xs:string" minOccurs="0" />
+              <xs:element name="MaNCC" msprop:Generator_ColumnPropNameInRow="MaNCC" msprop:Generator_ColumnPropNameInTable="MaNCCColumn" msprop:Generator_ColumnVarNameInTable="columnMaNCC" msprop:Generator_UserColumnName="MaNCC" type="xs:string" minOccurs="0" />
+              <xs:element name="TenNCC" msprop:Generator_ColumnPropNameInRow="TenNCC" msprop:Generator_ColumnPropNameInTable="TenNCCColumn" msprop:Generator_ColumnVarNameInTable="columnTenNCC" msprop:Generator_UserColumnName="TenNCC" type="xs:string" minOccurs="0" />
+              <xs:element name="TongTien" msprop:Generator_ColumnPropNameInRow="TongTien" msprop:Generator_ColumnPropNameInTable="TongTienColumn" msprop:Generator_ColumnVarNameInTable="columnTongTien" msprop:Generator_UserColumnName="TongTien" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
